@@ -1,5 +1,6 @@
 import React from 'react'
 import './aboutme.css';
+import { FaDownload} from 'react-icons/fa'
 export default function About() {
     return (
         <div className='about'>
@@ -11,6 +12,7 @@ export default function About() {
    <div className='lastdiv'>I am a problem solver with great attention to detail and creativity, and I am always learning new technologies <div></div> and methodologies in order to help businesses grow.</div>
    
            </div>
+           <button><a href='https://docs.google.com/document/d/1MQjg0_bJfZWGtTdAvufqPrs6RnQiAZGLVconzwUBml0/edit?usp=sharing'>Download my Cv</a><span><FaDownload/></span></button>
         </div>
     )
 }
