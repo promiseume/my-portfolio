@@ -1,0 +1,27 @@
+.service h1{
+    font-size: 32px;
+    color: #E5DFF5;
+    text-align: center;
+    padding: 96px ;
+}
+.serv{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding: 1em;
+}
+.serv i{
+    color: #9e3155;
+    font-size: 6rem;
+    font-weight: 900;
+}
+.serv h3{
+    font-size: 17px;
+    color: #E5DFF5;
+}
+@media ( max-width:852px ) {
+    .serv{
+        display: grid;
+    }
+}

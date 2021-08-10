@@ -1,0 +1,50 @@
+ nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+   .headernav {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #f9f9f9;
+    padding: 5px;
+    margin:60px;
+  }
+  
+  ul {
+    display: flex;
+    flex: 0.4;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+  }
+   .btn{
+    display:none
+  }
+  nav li a{
+    color: #f9f9f9;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav li a:hover{
+    text-decoration:underline;
+    color:#E5DFF5 ;
+   
+  }
+  @media (max-width: 852px) {
+    nav{
+      display: flex;
+      justify-content: flex-start;
+      text-align: left;
+      padding: 30px;
+    }
+   ul{
+     display: flex;
+     flex-direction: column;
+    
+   }
+  
+  } 

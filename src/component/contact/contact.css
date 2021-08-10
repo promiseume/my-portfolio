@@ -1,0 +1,55 @@
+.contact h2{
+    text-align: center;
+    color: #E5DFF5;
+    font-size: 32px;
+    padding: 58px;
+}
+.contact p{
+    color: #E5DFF5;
+    font-size: 16px;
+    text-align: center;
+}
+.mycontact{
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    padding: 80px;
+    text-align: center;
+}
+.mycontact i{
+    color:#9e3155 ;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mycontact h3{
+    color: #E5DFF5;
+    font-size: 16px;
+}
+ h4{
+    padding: 0px;
+    font-size: 23px;
+    text-align: center;
+    color: #E5DFF5;
+    font-weight: 500;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+
+}
+.social a{
+    color: #9e3155;
+    padding: 0;
+    padding-top: 0;
+}
+@media ( max-width:852px ) {
+    .mycontact{
+        display: grid;
+    }
+    .social{
+        display: grid;
+    }
+}
