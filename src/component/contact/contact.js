@@ -14,13 +14,13 @@ export default function Contact() {
                 <div> <h1></h1></div>
                 <div>
                    <i><FaEnvelope/></i> 
-                    <h3>Contact@ <a url='ngoziume1@gmail.com'></a> ngoziume1@gmail.com</h3>
+                    <h3>Contact@ <a href='ngoziume1@gmail.com'></a> ngoziume1@gmail.com</h3>
                 </div>
             </div>
             <h4>Social media</h4>
             <div className='social'>
-               <h1><a url='promyzng@twitter.com'><FaTwitterSquare/></a></h1>
-               <h1><a url='promiseume@github.com'><FaGithubSquare/></a></h1>
+               <h1><a href='promyzng@twitter.com'><FaTwitterSquare/></a></h1>
+               <h1><a href='promiseume@github.com'><FaGithubSquare/></a></h1>
             </div>
         </div>
     )
