@@ -13,6 +13,7 @@
     text-align: center;
     color: #E5DFF5;
     font-size: 16px;
+    padding: 30px;
 }
 .firstdiv{
     padding: 15px;
@@ -29,11 +30,14 @@ button {
     font-size: 16px;
  
 }
+button:hover{
+    color: #E5DFF8;
+}
 button a{
     text-decoration: none;
    color: #E5DFF5;
    padding: 10px;
 }
-button a span{
+button a spann{
     font-size: -2rem;
 }
