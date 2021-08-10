@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './header.css'
- const textArray=['a Front-End Developer','a Fast Learner','a Problem Solver','a Faster Learner','Creative']
+ const textArray=['a Front-End Developer','a Fast Learner','a Problem Solver','a Faster Learner','Creative','a Web Developer']
 export default class Header extends Component {
     
     state={
