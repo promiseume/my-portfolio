@@ -1,9 +1,14 @@
-body {
-  margin: 0;
+body{
+margin: 0;
   font-family: "Montserrat", sans-serif;
   background-image:linear-gradient(to right, #141127, #1d064b, #210d3d, #372447);
   background-size: 400% 400%;
-  animation: 10s ease-in-out infinite;
+  animation: slide 10s ease-in-out infinite;}
+
+@keyframes slide {
+  50%{ right: 100%;
+    
+  }
 }
 
   

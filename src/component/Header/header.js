@@ -1,27 +1,22 @@
 import React, { Component } from 'react'
 import './header.css'
- const textArray=['a Front-End Developer','a Fast Learner','a Problem Solver','a Faster Learner','Creative','a Web Developer']
-export default class Header extends Component {
-    
-    state={
-        text:0
-    }
+import { init } from 'ityped'
+export default class Hello extends Component {
     componentDidMount(){
-        this.timeout = setInterval(() => {
-            let currenTxt = this.state.text;
-            this.setState({ text: currenTxt + 1 });
-          }, 2500);
-        }
-        componentWillUnmount() {
-            clearInterval(this.timeout);
-          }
-    render() {
-        let textThatChanges = textArray[this.state.text % textArray.length];
-        return (
-            <div className='header'>
-                <h1>Hi,I am Promise</h1>
-                <p>I am <span>{textThatChanges} </span></p>
-            </div>
-        )
+      const myElement = document.querySelector('#myElement')
+      init(myElement, { showCursor: false, strings: ['A Front-End Developer','A Problem Solver','A Fast Learner','Creative','A Web Developer' ] })
     }
-}
+    render(){
+      return  (
+      <div className='header'>
+          <h1>Hi,I am Promise</h1>
+          <p>I am<span id="myElement"></span></p>
+       
+      </div>
+      )
+    }
+  }
+
+
+
+
