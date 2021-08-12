@@ -1,31 +1,24 @@
-import './nav.css';
-export default function Nav() {
-  
-  return (
-    <nav>
-    <div className='headernav'>
-      <a href="#Welcome">
-       <h1></h1>
-      </a>
-      </div>
-      <button className='btn'>Menu</button>
+import "./nav.css";
+import { FaBars } from "react-icons/fa";
 
-    
+import React from 'react'
+
+export default function nav() {
+  return (
+       <nav>
       <ul>
-        <li>
-          <a href="#home">About</a>
+        <li className='logo'>Welcome</li>
+        <li className='btn'>
+         <i> <FaBars /></i>
         </li>
-        <li>
-          <a href="#about">Service</a>
-        </li>
-        <li>
-          <a href="#project">Project</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
+        <li className='nav'> <a href="#home">About</a> </li>
+        <li className='nav'> <a href="#about">Service</a></li>
+        <li className='nav'> <a href="#project">Project</a> </li>
+        <li className='nav'> <a href="#contact">Contact</a></li>
       </ul>
-     
+  
     </nav>
-  );
+  )
 }
+
+

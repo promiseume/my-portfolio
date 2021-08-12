@@ -14,9 +14,25 @@
      font-weight: bold;
    
  }
- .header p span{
+ .header #myElement{
      color: #9e3155;
      font-size: 2rem;
      padding: 10px;
+ }
+ 
+   .cursor{
+   border-left:3px solid #9e3155;
+   animation: blink 1s infinite;
+ } 
+ @keyframes blink {
+     0%{
+         background-color: #fffffe;
+     }
+     49%{
+        background-color: #fffffe;
+     }
+     50%{
+        background-color: #fffffe;
+     }
  }
  

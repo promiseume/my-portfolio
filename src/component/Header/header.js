@@ -10,7 +10,7 @@ export default class Hello extends Component {
       return  (
       <div className='header'>
           <h1>Hi,I am Promise</h1>
-          <p>I am<span id="myElement"></span></p>
+          <p>I am<span id="myElement"></span><span className='cursor'></span></p>
        
       </div>
       )

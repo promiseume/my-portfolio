@@ -12,7 +12,7 @@ export default function About() {
    <div className='lastdiv'>I am a problem solver with great attention to detail and creativity, and I am always learning new technologies <div></div> and methodologies in order to help businesses grow.</div>
    
            </div>
-           <button><a href='file:///Users/promiseume/Downloads/Resume.pdf'>Download my Cv</a><span><FaDownload/></span></button>
+           <button><a href='./Ume Ngozi cv.pdf'>Download my Cv</a><span><FaDownload/></span></button>
         </div>
     )
 }
