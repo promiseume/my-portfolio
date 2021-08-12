@@ -19,8 +19,8 @@ export default function Contact() {
             </div>
             <h4>Social media</h4>
             <div className='social'>
-               <h1><a href='promyzng@twitter.com'><FaTwitterSquare/></a></h1>
-               <h1><a href='promiseume@github.com'><FaGithubSquare/></a></h1>
+               <h1><a href='https://twitter.com/ume_ngozi'><FaTwitterSquare/></a></h1>
+               <h1><a href='https://github.com/promiseume'><FaGithubSquare/></a></h1>
             </div>
         </div>
     )
