@@ -1,10 +1,14 @@
 import React from 'react'
 import './aboutme.css';
-import { FaDownload} from 'react-icons/fa'
+import { FaDownload } from 'react-icons/fa'
 export default function About() {
     return (
         <div className='about'>
-          <h1>About Me</h1>
+          <h1>
+            <span>About Me</span>
+
+            
+         </h1>
             <div className='aboutPara'>
                <div className='firstdiv'> My name is Promise and i am a web developer currently based in lagos Nigeria.</div>
   <div> I am passionate about creating intuitive and dynamic user experiences.My main interests lie</div> on new technologies and bringing unique ideas into life by building highly functional websites<div> and applications.Contributing to the creation of high quality products that are user centered is what drives my work ethic</div> 

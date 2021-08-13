@@ -28,6 +28,7 @@ nav ul li{
    text-align: center;
    position: relative;
    order: 3;
+   text-transform: uppercase;
  }
  .nav::after{
    position: absolute;
