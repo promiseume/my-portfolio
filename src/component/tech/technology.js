@@ -1,4 +1,4 @@
-import { FaHtml5,FaCss3Alt,FaBootstrap,FaJsSquare,FaReact,FaGitAlt } from "react-icons/fa"
+import { FaHtml5,FaCss3Alt,FaBootstrap,FaJsSquare,FaReact,FaGitAlt,FaSass } from "react-icons/fa"
 import './tech.css';
 export default function Tech() {
     return (
@@ -26,10 +26,15 @@ export default function Tech() {
                 <h3>React</h3>
             </div>
             <div>
+                <i><FaSass/></i>
+                <h3>Sass</h3>
+            </div>
+            <div>
             <i> <FaGitAlt/></i>
                 <h3>Git</h3>
             </div>
             </div>
+            
         </div>
     )
 }

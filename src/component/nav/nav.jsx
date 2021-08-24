@@ -1,5 +1,6 @@
 import "./nav.css";
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import React, { Component } from "react";
 
@@ -25,16 +26,16 @@ export default class Nav extends Component {
             {showContent === true && (
               <>
                 <li className="nav">
-                <a href="#about">About</a>
+                <a href="#about"><Link to='/about'>About</Link></a>
                 </li>
                 <li className="nav">
-                  <a href="#about">Service</a>
+                  <a href="#about"><Link to='/service'>Service</Link></a>
                 </li>
                 <li className="nav">
-                  <a href="#project">Project</a>{" "}
+                  <a href="#project"><Link to='/tech'>Technology</Link></a>{" "}
                 </li>
                 <li className="nav">
-                  <a href="#contact">Contact</a>
+                  <a href="#contact"><Link to='contact'>Contact</Link></a>
                 </li>
               </>
             )}

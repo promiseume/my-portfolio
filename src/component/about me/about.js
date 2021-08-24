@@ -1,11 +1,11 @@
 import React from 'react'
 import './aboutme.css';
-import { FaDownload } from 'react-icons/fa'
+import { FaDownload, FaHorizontalLine } from 'react-icons/fa'
 export default function About() {
     return (
         <div className='about'>
           <h1>
-            <span>About Me</span>
+            <span>About Me </span>
 
             
          </h1>
