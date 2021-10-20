@@ -4,7 +4,7 @@ import { FaDownload, FaHorizontalLine } from 'react-icons/fa'
 export default function About() {
     return (
         <div className='about'>
-          <h1>
+          <h1 id='about'>
             <span>About Me </span>
 
             

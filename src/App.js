@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Route } from 'react-router-dom'
+
 import Nav from './component/nav/nav'
 import Header from './component/Header/header'
 import About from './component/about me/about'
@@ -10,16 +10,14 @@ import Footer from './component/footer/footer'
 function App() {
   return (
     <div>
-      <Router>
      <Nav/>
-   <header><Header/></header>
-  <section><About/></section>
-  <section><Service/></section>
-  <section><Tech/></section>
-  <section><Contact/></section>
-   <footer><Footer/></footer>
+     <Header/>
+     <About/>
+     <Service/>
+    <Tech/>
+    <Contact/>
+    <Footer/>
      
-     </Router>
     </div>
   );
 }

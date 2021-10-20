@@ -3,7 +3,7 @@ import './tech.css';
 export default function Tech() {
     return (
         <div className='techandtools'>
-         <h1> Technologies and Tools</h1> 
+         <h1 id='tech'> Technologies and Tools</h1> 
             <div className='tech'>
             <div>
                <i> <FaHtml5/></i>
@@ -21,6 +21,8 @@ export default function Tech() {
             <i>  <FaJsSquare/></i>
                 <h3>Javascript</h3>
             </div>
+            </div>
+            <div className='tech'>
             <div>
             <i>  <FaReact/></i>
                 <h3>React</h3>
@@ -32,6 +34,10 @@ export default function Tech() {
             <div>
             <i> <FaGitAlt/></i>
                 <h3>Git</h3>
+            </div>
+            <div>
+            <i><img src="assets/icons/mongo-icon-pink.png" alt="MongoDB"/></i>
+                <h3>MongoDB</h3>
             </div>
             </div>
             

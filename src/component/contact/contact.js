@@ -4,7 +4,7 @@ import { FaMapMarkerAlt,FaEnvelope,FaTwitterSquare,FaGithubSquare } from 'react-
 export default function Contact() {
     return (
         <div className='contact'>
-            <h2>Let Work Together</h2>
+            <h2 id='contact'>Let Work Together</h2>
             <p>Do you have a project in mind or would you like me to join your team? Don't hesitate to contact me:</p>
             <div className='mycontact'>
                <div>

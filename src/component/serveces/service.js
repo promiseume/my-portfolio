@@ -4,7 +4,7 @@ import { FaLaptop, FaMobileAlt,FaSearchLocation } from 'react-icons/fa'
 export default function Service() {
     return (
         <div className='service'>
-            <h1>Services</h1>
+            <h1 id='service'>Services</h1>
             <div className='serv'>
                 <div>
                 <i><FaLaptop/></i>
