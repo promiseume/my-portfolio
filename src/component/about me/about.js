@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutme.css';
-import { FaDownload, FaHorizontalLine } from 'react-icons/fa'
+import { FaDownload} from 'react-icons/fa'
 export default function About() {
     return (
         <div className='about'>
